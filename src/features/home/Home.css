@@ -1,0 +1,14 @@
+.main-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.main-child {
+    width: 30%;
+    height: 20rem;
+    margin: 3rem 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}

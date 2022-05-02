@@ -4,19 +4,20 @@ html,
 body {
   margin: 0;
   font-family: 'Oxygen', sans-serif;
+  font-size: 100%;
+  
 }
 
 main {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
 }
 
 .App {
-  border: 1px solid black;
   margin: 2px;
 }
 
-.App-header {
+header {
   font-size: xx-large;
   font-weight: 800;
   text-align: center;
@@ -26,9 +27,20 @@ main {
   position: sticky;
 }
 
-.bars-container {
-  float: left;
+.search-select-container {
+  padding: 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
 }
+
+
+
+
+
+
+
+
+ 
 
 .listings-container {
   width: 100%;

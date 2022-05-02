@@ -1,17 +1,20 @@
 import './App.css';
+import SubredditList from './features/subredditList/SubredditList';
+import Search from './features/search/Search';
+import Home from './features/home/Home';
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>
+      <header>
         Reddit Mini Student Version
       </header>
-      <div className='bars-container'>
-        {/*<Subreddits />*/}
-        {/*<Search  />*/}
-      </div>
+      <section className='search-select-container'>
+       <SubredditList />
+        <Search  />
+      </section>
       <main>
-        {/*<ListingPreviews />*/}        
+        <Home />   
       </main>
     </div>
   );

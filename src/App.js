@@ -1,7 +1,8 @@
+import React from 'react';
 import './App.css';
-import SubredditList from './features/subredditList/SubredditList';
+import Home from './features/Home/Home';
 import Search from './features/search/Search';
-import Home from './features/home/Home';
+import Subreddits from './features/Subreddits/Subreddits';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
          Mini Reddit Student Version
       </header>
       <section className='search-select-container'>
-       <SubredditList />
+       <Subreddits />
         <Search  />
       </section>
       <main>

@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { HiOutlineSearch } from 'react-icons/hi';
-import './Search.css';
+import './Header.css';
 import { FaReddit } from 'react-icons/fa';
 import { useDispatch, useSelector } from 'react-redux';
 import { setSearchTerm } from '../../store/redditSlice';
 
-const Search = () => {
+const Header = () => {
   const [searchTermLocal, setSearchTermLocal] = useState('');
   const searchTerm = useSelector((state) => state.reddit.searchTerm);
   const dispatch = useDispatch();
@@ -47,4 +47,4 @@ const Search = () => {
   );
 };
 
-export default Search;
+export default Header;

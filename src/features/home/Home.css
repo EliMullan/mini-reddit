@@ -12,3 +12,11 @@
     padding: 1rem;
     border: 1px solid black;
 }
+
+@media (max-width: 767px) {
+    .main-container {
+        flex-flow: column; 
+        
+    }
+    
+}

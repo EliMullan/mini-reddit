@@ -1,3 +1,11 @@
 select {
-    min-width: 20rem;
+    width: 20rem;
+}
+
+
+@media (max-width: 767px) {
+    select {
+        width: 10rem;
+    }
+    
 }

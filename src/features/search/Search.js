@@ -1,9 +1,12 @@
 import './Search.css';
 
 const Search = () => {
+
+    
     return (
-        <div>
-            search bar
+        <div className='search-bar'>
+            <input placeholder='search here'  /> 
+                
         </div>
     )
 }

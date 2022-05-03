@@ -1,3 +1,5 @@
+import './SubredditList.css';
+
 const SubredditList = () => {
     return (
         <div>

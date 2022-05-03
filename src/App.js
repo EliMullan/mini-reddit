@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='App'>
       <header>
-        Reddit Mini Student Version
+         Mini Reddit Student Version
       </header>
       <section className='search-select-container'>
        <SubredditList />

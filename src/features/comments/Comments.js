@@ -1,3 +1,6 @@
+import './Comments.css';
+
+
 const Comments = () => {
     return (
         <div>
